@@ -1,12 +1,14 @@
 {
   "grading": "isolated",
-  "difficulty": "intermediate",
+  "difficulty": "medium",
   "duration": 2,
   "description": {
-    "us": ""
+    "us": "Develop practical skills in identifying and exploiting Local File Inclusion (LFI) vulnerabilities within a bWAPP environment.",
+    "es": "Desarrollar habilidades prácticas en la identificación y explotación de vulnerabilidades de Inclusión de Archivos Locales (LFI) dentro de un entorno bWAPP."
   },
   "title": {
-    "us": "owasp-top10-misconfiguration"
+    "us": "owasp-top10-misconfiguration",
+    "es": "owasp-top10-misconfiguration"
   },
   "slug": "owasp-top10-misconfiguration"
 }
