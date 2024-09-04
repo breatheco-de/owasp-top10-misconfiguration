@@ -12,7 +12,11 @@
 
 ## 📝 Instructions
 
-In this activity, we will work with the beebox virtual machine, which contains bWAPP, to exploit vulnerabilities from the OWASP Top 10. Below is a detailed example of how to exploit the Security Misconfiguration (A05:2021) vulnerability. Students should apply the same steps to the other vulnerabilities in the OWASP Top 10.
+In this activity, we will use the BeeBox virtual machine, which contains the vulnerable application bWAPP, to explore and exploit vulnerabilities included in the [OWASP Top 10](https://owasp.org/www-project-top-ten/). We will focus on the **Security Misconfiguration (A05:2021)** vulnerability, demonstrating how **Local File Inclusion (LFI)** can be exploited in this context.
+
+**Local File Inclusion (LFI)**
+
+Through this exploitation, we will demonstrate how incorrect configuration can allow an attacker to access sensitive local files on the server, revealing confidential information.
 
 
 <!-- hide -->
