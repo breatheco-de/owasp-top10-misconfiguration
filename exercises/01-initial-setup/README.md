@@ -1,26 +1,17 @@
-# `01` First Exercise
+# `01` Initial Setup
 
-We created this first exercise as an example, you can find it located in the folder `./01-hello-world`.
+### **Log in to bWAPP**
 
-1. Every exercise must be located on a separate folder and it must have a README.md file inside with the exercise instructions written in markdown.
-2. You can have just a README file and it will be like a page in a book, no code files.
-3. You can also add a `README.[lang].md` file for translations, for example: `README.es.md` for spanish.
+1. Start the BeeBox virtual machine.
+2. Access the bWAPP web interface from your browser using the IP address of the BeeBox machine.
+3. **Log in to bWAPP**:
 
-## Video compatibility
+    ```bash
+    - Username: bee
+    - Password: bug
+    ```
 
-If you want to include some video introduction for each exercise, add a `intro` property in the markdown frontmatter of the README.md for that particular exercise:
+4. **Select OWASP Top 10**. In the bWAPP menu, choose "OWASP Top 10" from the dropdown list to view the available vulnerabilities.
+5. Explore the different OWASP Top 10 vulnerabilities listed in bWAPP and select **Remote & Local File Inclusion (RFI/LFI)** for the guided activity and click "Hack".
 
-```markdown
----
-intro: "https://www.youtube.com/watch?v=YkgkThdzX-8"
----
-```
-
-You can also add a video solution for each exercise by adding a `tutorial` property on the markdown frontmatter of it's README.md:
-
-```markdown
----
-intro: "https://www.youtube.com/watch?v=YkgkThdzX-8"
-tutorial: "https://www.youtube.com/watch?v=YkgkThdzX-8"
----
-```
+> ⚠ You might find **Remote & Local File Inclusion (RFI/LFI)** listed under Missing Functional Level Access Control because the Remote & Local File Inclusion (RFI/LFI) vulnerability can appear in multiple security categories depending on the context in which it is analyzed. Although it is more commonly classified under Security Misconfiguration, in some cases, it may be listed under categories like Missing Function Level Access Control, as bWAPP has done.
